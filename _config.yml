@@ -17,6 +17,11 @@ url: "http://rohit-kulkarni.com" # the base hostname & protocol for your site
 github_username:  rohitk10
 
 # Build settings
-markdown: kramdown
+sass: # added later
+  sass_dir: _sass # added later to ensure sass compiles correctly
+  include: [_pages] # added later to ensure custom pages are organized into their own directory
+markdown: 
+input: GFM # added later GitHub Flavored Markdown
+# kramdown # default
 
 #theme: jekyll-theme-cayman
