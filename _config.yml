@@ -25,3 +25,5 @@ input: GFM # added later GitHub Flavored Markdown
 # kramdown # default
 
 #theme: jekyll-theme-cayman
+
+theme: jekyll-theme-cayman
