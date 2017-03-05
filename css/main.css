@@ -1,3 +1,7 @@
+@font-face{
+   font-family:"Oswald-Light"; 
+   src: url(fonts/Oswald-Light.ttf)
+ }
 #header
 {
 	margin: auto;
@@ -9,8 +13,51 @@
   	/*background-color: black;*/
 }
 
+header .row
+{
+	display: flex;
+	align-items: center;
+}
+
+#nav_bar
+{
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-end;
+}
+
+#full_nav_bar
+{
+	display: flex;
+	justify-content: flex-end;
+	border-bottom: 1px solid black;
+
+}
+
+#nav_bar li
+{
+	font-size: 1.5em;
+	font-family: "Oswald-Light";
+	margin: 0px 8px 0px 8px;
+}
+
+#nav_bar li:hover
+{
+	/*text-decoration: underline;*/
+	/*background-color: rgba(211, 211, 211, 0.5);*/
+	font-weight: bold;
+	cursor: pointer;
+}
+
 #main_name
 {
 	text-align: center;
-	font-size: 2em;
+	font-size: 3em;
+	font-family: "Oswald-Light";
+}
+
+#big_image
+{
+	margin: auto;
+	/*margin: 50px 0px 0px 0px;*/
 }
