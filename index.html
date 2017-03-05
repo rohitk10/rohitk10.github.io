@@ -30,16 +30,50 @@ layout: default
   <head>
     <link type = "text/css"; rel = "stylesheet"; href = "main.css"/>
     <link href='//fonts.googleapis.com/css?family=Abel' rel='stylesheet' type = "text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
     <title>Rohit Kulkarni</title>
   </head>
   <body>
-    <!-- HEADER -->
-    <div id = "header">
-      <!-- Center text name --> 
-      <p id = "main_name"; font-family: "Abel">ROHIT KULKARNI</p>
-    </div>
 
-    <!-- HEADER END -->
+    <!-- OLD HEADER -->
+    <!--
+    <div id = "header">
+      <p id = "main_name">ROHIT KULKARNI</p>
+    </div>
+  -->
+    <!-- OLDHEADER END -->
+
+    <!-- BOOTSTRAP HEADER -->
+    <header class = "container">
+
+      <div class = "row">
+        <p class = "col-sm-4"></p>
+        <p id = "main_name"; class = "col-sm-4 text-center">ROHIT KULKARNI</p>
+        <p class = "col-sm-4"></p>
+      </div>
+
+      <div id = "full_nav_bar" class = "row">
+          <ul id = "nav_bar"; class = "col-sm-4 text-right">
+            <li>About Me</li>
+            <li>Education</li>
+            <li>Projects</li>
+            <li>Resume</li>
+            
+        </ul>
+      </div>
+    </header>
+
+    <!-- BOOTSTRAP HEADER END -->
+
+    <!-- BIG IMAGE -->
+    <!--
+    <div id = "big_image">
+      <img src = "big_images/big_image_1.jpg"/>
+    </div>
+  -->
+    <!-- BIG IMAGE END -->
+  
   </body>
 </html>
+
 
