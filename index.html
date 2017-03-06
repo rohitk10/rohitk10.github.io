@@ -27,53 +27,445 @@ layout: default
 <!-- Added by me -->
 <!DOCTYPE html>
 <html>
-  <head>
-    <link type = "text/css"; rel = "stylesheet"; href = "main.css"/>
-    <link href='//fonts.googleapis.com/css?family=Abel' rel='stylesheet' type = "text/css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
-    <title>Rohit Kulkarni</title>
-  </head>
-  <body>
 
-    <!-- OLD HEADER -->
-    <!--
-    <div id = "header">
-      <p id = "main_name">ROHIT KULKARNI</p>
-    </div>
-  -->
-    <!-- OLDHEADER END -->
+<head>
+	<title>Rohit Kulkarni</title>
+	<meta charset = "utf-8">
+	<meta name = "viewport" content = "width = device-width, initial-scale = 1">
+	<!--<link type = "text/css" rel = "stylesheet" href = "main.css"/>-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
 
-    <!-- BOOTSTRAP HEADER -->
-    <header class = "container">
+<style>
 
-      <div class = "row">
-        <p class = "col-sm-4"></p>
-        <p id = "main_name"; class = "col-sm-4 text-center">ROHIT KULKARNI</p>
-        <p class = "col-sm-4"></p>
-      </div>
+@font-face{
+   font-family:"Oswald-Light"; 
+   src: url(Oswald-Light.ttf)
+ }
 
-      <div id = "full_nav_bar" class = "row">
-          <ul id = "nav_bar"; class = "col-sm-6 text-right">
-            <li>About Me</li>
-            <li>Education</li>
-            <li>Projects</li>
-            <li>Resume</li>
-            
-        </ul>
-      </div>
-    </header>
+ *
+ {
+ 	font-family: Oswald-Light;
+ }
 
-    <!-- BOOTSTRAP HEADER END -->
+ h2
+ {
+ 	font-size: 40px;
+ }
 
-    <!-- BIG IMAGE -->
-    <!--
-    <div id = "big_image">
-      <img src = "big_images/big_image_1.jpg"/>
-    </div>
-  -->
-    <!-- BIG IMAGE END -->
-  
-  </body>
+ h3
+ {
+ 	font-size: 30px;
+ }
+
+ h4
+ {
+ 	font-size: 25px;
+ }
+
+ p
+ {
+ 	font-size: 20px;
+ }
+
+.jumbotron
+{
+	margin: 0px 0px 0px 0px;
+	background-color: rgb(50, 50, 50);
+	color: #ffffff;
+	padding: 100px 25px;
+}
+
+#education
+{
+	height: 500px;
+}
+
+#education .row
+{
+	margin-top: 100px;
+}
+
+.container-fluid
+{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 50px 50px 50px;
+}
+
+.bg-SaddleBrown
+{
+	margin: 0px 0px 0px 0px;
+	background-color: SaddleBrown;
+	color: white;
+}
+
+.bg-Khaki
+{
+	background-color: Khaki;
+}
+
+.bg-DarkKhaki
+{
+	background-color: DarkKhaki;
+}
+
+.bg-grey
+{
+	background-color: Gray;
+}
+
+.bg-LightGrey
+{
+	background-color: LightGrey;
+}
+
+.bg-DarkGrey
+{
+	background-color: DarkGrey;
+}
+
+.bg-DimGrey
+{
+	background-color: DimGrey;
+}
+
+.bg-SlateGrey
+{
+	background-color: SlateGrey;
+}
+
+.thumbnail 
+{
+    padding: 0 0 50px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail img 
+{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.navbar
+{
+
+	margin-bottom: 0px;
+	/*background-color: red;*/
+	/*z-index: 9999;*/
+	border: 0;
+	font-size: 12px;
+	line-height: 1.42857143;
+	letter-spacing: 4px;
+	border-radius: 0px;
+}
+
+.navbar li a, .navbar .navbar-brand
+{
+	/*color: white;*/
+	margin-bottom: 0px;
+	/*padding-bottom: 0px;*/
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a
+{
+	/*color: ;
+	background-color:*/ 
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+footer .glyphicon
+{
+	font-size: 20px;
+	margin-bottom: 20px;
+	color: DarkSlateGray;
+}
+</style>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+	<div class = "jumbotron text-center">
+		<h1>ROHIT KULKARNI</h1>
+		<p>coder_SoftwareDeveloper.engineer</p>
+	</div>
+
+	<div class = "container-fluid bg-DimGrey">
+		<div class = "row">
+			<div class = "col-sm-12 text-center">
+				<h2>EDUCATION</h2>
+			</div>
+		</div>
+	</div>
+
+	<div id = "education" class = "container-fluid bg-DimGrey">
+		<div class = "row">
+			<div class = "col-sm-8">
+				<h3>Stevens Institute of Technology, Hoboken, NJ</h3></br>
+				<h4>Master of Science in Electrical and Software Engineering</h4>
+				<h4>Graduated Jan 2017</h4>
+				<h4>GPA: 3.63</h4>
+				<h4>Recipient of Master's Fellowship Award 2015</h4>
+			</div>
+			<div class = "col-sm-4">
+				<img src = "stevens_logo.png"/>
+			</div>
+		</div>
+	</div>
+
+	<div id = "education" class = "container-fluid bg-DarkGrey">
+		<div class = "row">
+			<div class = "col-sm-4">
+				<img src = "mumbai_logo.php"/>
+			</div>
+			<div class = "col-sm-8 text-right">
+				<h3>University of Mumbai, Mumbai, MH, India</h3></br>
+				<h4>Bachelor of Engineering in Instrumentation Engineering</h4>
+				<h4>Graduated May 2015</h4>
+				<h4>GPA: 3.6</h4>
+			</div>
+		</div>
+	</div>
+
+	<div id = "education" class = "container-fluid">
+		<div class = "row">
+			<div class = "col-sm-8">
+				<h3>Smt. Sulochanadevi Singhania School</h3></br>
+				<h4>Major: Computer Science</h4>
+				<h4>Graduated May 2010</h4>
+			</div>
+			<div class = "col-sm-4">
+				<img src = "singhania_white_logo.jpeg" style = "width: 525px; height: 120px";/>
+			</div>
+		</div>
+	</div>
+
+	<div id = "skills" class = "container-fluid text-center bg-LightGrey">
+		<h2> SOFTWARE SKILLS</h2>
+		<h3>Some of the things I like to do and happen to be good at.</h3>
+		<br>
+		<div class = "row">
+			<div class = "col-sm-4">
+				<h4>Java</h4>
+				<img src = "java_logo.png" style = "width: 200px; height: 200px;"/>
+			</div>
+		
+
+
+			<div class = "col-sm-4">
+				<h4>C++</h4>
+				<img src = "cpp_logo.png" style = "width: 200px; height: 200px;"/>
+			</div>
+
+
+
+			<div class = "col-sm-4">
+				<h4>Python</h4>
+				<img src = "python_logo.png" style = "width: 200px; height: 200px;"/>
+			</div>
+		</div>
+	</br></br>
+
+		<div class = "row">
+			<div class = "col-sm-4">
+				<h4>HTML/HTML5</h4>
+				<img src = "html_square_logo.png" style = "width: 200px; height: 200px;"/>
+			</div>
+
+
+
+			<div class = "col-sm-4">
+				<h4>CSS/CSS3</h4>
+				<img src = "css_square_logo.jpg" style = "width: 200px; height: 200px;"/>
+			</div>
+
+
+
+			<div class = "col-sm-4">
+				<h4>JavaScript</h4>
+				<img src = "javascript_logo.png" style = "width: 200px; height: 200px;"/>
+			</div>
+		</div>
+	</br></br>
+
+		<div class = "row">
+			<div class = "col-sm-4">
+				<h4>Bash</h4>
+				<img src = "bash_logo.png" style = "width: 200px; height: 200px;"/>
+			</div>
+		
+
+
+			<div class = "col-sm-4">
+				<h4>PHP</h4>
+				<img src = "php_logo.png" style = "width: 200px; height: 200px;"/>
+			</div>
+
+
+
+			<div class = "col-sm-4">
+				<h4>Bootstrap</h4>
+				<img src = "bootstrap_logo.png" style = "width: 200px; height: 200px;"/>
+			</div>
+		</div>
+
+
+	</div>
+
+	<div id = "projects" class = "container-fluid text-center">
+		<h2>PROJECTS</h2>
+		<h3>Some projects and applications I have worked on or created.</h3></br>
+		
+		<div class = "row text-center">
+			<div class = "col-sm-12">
+				<div class = "thumbnail">
+					<h3>Canvas</h3>
+					<img src = "canvas_thumbnail.png" style = "width: 960px; height: 540px;"/>
+					<p>Canvas is a Java application that can be used by universities and schools to assign, view and grade assignments/homework specifically for programming courses. </br>
+						Features include Bulk Compilation; Code and Output Display; Automatic Class Grading;</br> 
+						Student and Class Performance Calculation; Performance Graph Representation etc.</br>
+
+				</div>
+			</div>
+		</div>
+
+		<div class = "row text-center">
+			<div class = "col-sm-12">
+				<div class = "thumbnail">
+					<h3>EasyPostscript</h3>
+					<img src = "postscript_thumbnail.png" style = "width: 960px; height: 540px;"/>
+					<p>EasyPostscript is a dynamically typed vector graphics tool developed using C++ and Postscript. </br>
+						It can be used for drawing designs ranging from simple ones like geometrical shapes to</br>
+						complex designs like bar graphs, line graphs, charts or even the famous 
+						<a target = "_blank" href = "https://en.wikipedia.org/wiki/Mandelbrot_set">Mandelbrot set</a>. 
+
+				</div>
+			</div>
+		</div>
+
+		<div class = "row text-center">
+			<div class = "col-sm-12">
+				<div class = "thumbnail">
+					<h3>PySport</h3>
+					<img src = "pysport_thumbnail.png" style = "width: 960px; height: 540px;"/>
+					<p>PySport is a Python application that predicts the result of sports matches based on tweets made by fans, commentators and </br>
+						players throughout the week before the match. Several Python libraries are used including tweepy, matplotlib and</br>
+						 numpy that look for patterns, trends and keywords to make a prediction and display the results graphically.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class = "row text-center">
+			<div class = "col-sm-12">
+				<div class = "thumbnail">
+					<h3>CheapSoccerShop</h3>
+					<img src = "cheapsoccershop_thumbnail.png" style = "width: 960px; height: 540px;"/>
+					<p>An eCommerce website created, published and maintained over a period 
+						of 4 months. Analysed website traffic using Google Analytics and</br> performed A/B testing to improve performance.
+						Marketed the website by executing Search Engine Optimization (SEO) as well as</br> Search Engine Marketing (SEM)  using tools like Google AdWords and Google Search Console(Webmaster) to successfully display the website</br> on the first page of google search results. </br>The website cheapsoccershop.com is no longer active because owning several domains for a student like me can be expensive :/</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div id = "contact_me" class = "container-fluid bg-Grey">
+		<h2 class = "text-center">CONTACT ME</h2>
+		<div class = "row">
+			
+			<div class = "col-sm-5">
+				<p>Want to hire me, collaborate, suggest a new technology 
+					to learn or send me a compliment? Contact me through
+					 LinkedIn, Facebook, GitHub, E-mail or simply leave a comment here!</p>
+					 <p><span class = "glyphicon glyphicon-envelope"></span>rkulkar1@stevens.edu</p>
+			</div>
+
+			<div class = "col-sm-7">
+				<div class = "row">
+					<div class = "col-sm-6 form-group">
+						<input class = "form-control" id = "name" name = "name" placeholder = "Name" type = "text" required>
+					</div>
+					<div class = "col-sm-6 form-group">
+						<input class = "form-control" id = "email" name = "email" placeholder = "Email" type = "email">
+					</div>
+				</div>
+				<textarea class = "form-control" id = "comments" name = "comments" placeholder = "Comment" rows = "5"></textarea><br>
+				<div class = "row">
+					<div class = "col-sm-12 form-group">
+						<button class = "btn btn-default pull-right" type = "submit">Send</button>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<nav class = "navbar navbar-default navbar-fixed-top">
+		<div class = "container">
+			<div class = "navbar-header">
+				<button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#myNavbar">
+					<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span> 
+				</button>
+				<p class = "navbar-brand">ROHIT KULKARNI</p>
+			</div>
+
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#education">EDUCATION</a></li>
+        			<li><a href="#skills">SKILLS</a></li>
+       				<li><a href="#projects">PROJECTS</a></li>
+        			<li><a href="#contact_me">CONTACT ME</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<footer class = "container-fluid text-center">
+		<a href = "#myPage" title = "To Top">
+			<span class = "glyphicon glyphicon-chevron-up"></br>ToTop</span>
+		</a>
+		<p>This portfolio website is created entirely from scratch using HTML, CSS, Bootstrap 3 and jQuery.</br>
+			Checkout the code at my GitHub Pages repository where the website is hosted. |m|Here!|m|</p>
+	</footer>
+
+	<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== ""){
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+</script>
+	
+	</body>
+
 </html>
 
 
