@@ -43,42 +43,34 @@ layout: default
 </head>
 
 <style>
-
 @font-face{
    font-family:"Oswald-Light"; 
    src: url(Oswald-Light.ttf)
  }
-
  *
  {
  	font-family: Oswald-Light;
  }
-
  h2
  {
  	font-size: 40px;
  }
-
  h3
  {
  	font-size: 30px;
  }
-
  h4
  {
  	font-size: 25px;
  }
-
  h5
  {
  	font-size: 20px;
  }
-
  p
  {
  	font-size: 20px;
  }
-
 .jumbotron
 {
 	margin: 0px 0px 0px 0px;
@@ -87,134 +79,108 @@ layout: default
 	color: #ffffff;
 	padding: 200px 25px;
 }
-
 #main_photo 
 {
     image-orientation: from-image;
 }
-
 #education
 {
 	height: 600px;
 }
-
 /*#education .row
 {
 	margin-top: 100px;
 }*/
-
 .school
 {
 	margin-top: 100px;
 }
-
-
-
 .matte_light
 {
 	/*background-color: #3f3f3f;*/
 	background-image: url(matte8.jpg);
 	/*color: white;*/
 }
-
 .matte_dark
 {
 	background-image: url(matte10.png);
 	color: white;
-
 }
-
 .matte7
 {
 	background-image: url(matte7.jpg);
 	color: white;
 }
-
 .container-fluid
 {
 	margin: 0px 0px 0px 0px;
 	padding: 0px 50px 50px 50px;
 }
-
 .bg-SaddleBrown
 {
 	margin: 0px 0px 0px 0px;
 	background-color: SaddleBrown;
 	color: white;
 }
-
 .bg-Khaki
 {
 	background-color: Khaki;
 }
-
 .bg-red
 {
 	background-color: #73192a;
 	color: white;
 }
-
 .bg-DarkKhaki
 {
 	background-color: DarkKhaki;
 }
-
 .bg-grey
 {
 	background-color: Gray;
 }
-
 .bg-LightGrey
 {
 	background-color: LightGrey;
 }
-
 .bg-DarkGrey
 {
 	background-color: DarkGrey;
 }
-
 .bg-DimGrey
 {
 	background-color: DimGrey;
 }
-
 .bg-SlateGrey
 {
 	background-color: SlateGrey;
 }
-
 .thumbnail 
 {
     padding: 0 0 50px 0;
     border: none;
     border-radius: 0;
 }
-
 .thumbnail img 
 {
     width: 100%;
     height: 100%;
     margin-bottom: 10px;
 }
-
 #projects div div div h3 a:hover
 {
 	text-decoration: none;
 	font-weight: bold;
 }
-
 p a:hover
 {
 	text-decoration: none;
 	font-weight: bold;
 }
-
 .navbar
 {
-	background: rgba(0,191,255,0.5);
+	background: rgb(59, 89, 152);
    border-color: transparent;
-
 	margin-bottom: 0px;
 	/*background-color: red;*/
 	/*z-index: 9999;*/
@@ -225,54 +191,51 @@ p a:hover
 	letter-spacing: 4px;
 	border-radius: 0px;
 }
-
 .navbar li a, .navbar .navbar-brand
 {
-	/*color: white;*/
+	color: white;
 	margin-bottom: 0px;
 	/*padding-bottom: 0px;*/
 }
-
 .navbar-nav li a:hover, .navbar-nav li.active a
 {
 	/*color: ;
 	background-color:*/ 
 }
-
 .navbar-default .navbar-toggle {
     border-color: transparent;
     color: #fff !important;
+}
+
+#myNavbar .nav li a
+{
+	color: white;
 }
 
 #photo_icon
 {
 	padding-top: 5px;
 }
-
 #contact_me
 {
 	background-color: rgb(50,50,50);
 	color: #ffffff;
 }
-
 #contact_me div div h3 a
 {
 	color: white;
 }
-
 #contact_me div div h3 a:hover
 {
 	text-decoration: none;
 	font-weight: bold;
 }
-
 footer .glyphicon
 {
 	font-size: 20px;
 	margin-bottom: 20px;
 	color: DarkSlateGray;
 }
-
 footer p a:hover
 {
 	text-decoration: none;
@@ -508,12 +471,8 @@ footer p a:hover
 					 LinkedIn, Facebook, GitHub, Email or simply leave a comment here!</h4>
 					 <p><span class = "glyphicon glyphicon-envelope"></span>rkulkar1@stevens.edu</p>
 			</div>
-
 			<div class = "col-sm-7">
 			<form action = "mailto:rkulkar1@stevens.edu" method = "post" enctype = "text/plain">
-
-
-
 				<div class = "row">
 					<div class = "col-sm-6 form-group">
 						<input class = "form-control" id = "name" name = "name" placeholder = "Name" type = "text" required>
@@ -610,10 +569,8 @@ $(document).ready(function(){
     if (this.hash !== ""){
       // Prevent default anchor click behavior
       event.preventDefault();
-
       // Store hash
       var hash = this.hash;
-
       // Using jQuery's animate() method to add smooth page scroll
       // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
       $('html, body').animate({
