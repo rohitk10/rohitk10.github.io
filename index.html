@@ -69,6 +69,11 @@ layout: default
  	font-size: 25px;
  }
 
+ h5
+ {
+ 	font-size: 20px;
+ }
+
  p
  {
  	font-size: 20px;
@@ -77,23 +82,52 @@ layout: default
 .jumbotron
 {
 	margin: 0px 0px 0px 0px;
-	background-color: rgb(50, 50, 50);
+	/*background-color: rgb(50, 50, 50);*/
+	background-image: url(matte1.jpg);
 	color: #ffffff;
-	padding: 100px 25px;
+	padding: 200px 25px;
 }
 
-#main_photo {
+#main_photo 
+{
     image-orientation: from-image;
 }
 
 #education
 {
-	height: 500px;
+	height: 600px;
 }
 
-#education .row
+/*#education .row
 {
 	margin-top: 100px;
+}*/
+
+.school
+{
+	margin-top: 100px;
+}
+
+
+
+.matte_light
+{
+	/*background-color: #3f3f3f;*/
+	background-image: url(matte8.jpg);
+	/*color: white;*/
+}
+
+.matte_dark
+{
+	background-image: url(matte10.png);
+	color: white;
+
+}
+
+.matte7
+{
+	background-image: url(matte7.jpg);
+	color: white;
 }
 
 .container-fluid
@@ -112,6 +146,12 @@ layout: default
 .bg-Khaki
 {
 	background-color: Khaki;
+}
+
+.bg-red
+{
+	background-color: #73192a;
+	color: white;
 }
 
 .bg-DarkKhaki
@@ -236,21 +276,26 @@ footer p a:hover
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
 	<div class = "jumbotron text-center">
-		<h2>ROHIT KULKARNI</h2>
-		<img id = "main_photo" src = "photo2.jpeg" class="img-circle" style = "width: 350x; height: 350px">
+		<h3>ROHIT KULKARNI</h3></br>
+		<img id = "main_photo" src = "photo2.jpeg" class="img-circle" style = "width: 300x; height: 300px"/></br>
 		</br><h4>coder_SoftwareDeveloper.engineer</h4>
 	</div>
 
-	<div class = "container-fluid bg-DimGrey">
+	<!--<div class = "container-fluid matte_light">
 		<div class = "row">
 			<div class = "col-sm-12 text-center">
 				<h2>EDUCATION</h2>
 			</div>
 		</div>
-	</div>
+	</div>-->
 
-	<div id = "education" class = "container-fluid bg-DimGrey">
+	<div id = "education" class = "container-fluid matte_light">
 		<div class = "row">
+			<div class = "col-sm-12 text-center">
+				<h2>EDUCATION</h2>
+			</div>
+		</div>
+		<div class = "row school">
 			<div class = "col-sm-6">
 				<h3>Stevens Institute of Technology, Hoboken, NJ</h3></br>
 				<h4>Master of Science in Electrical and Software Engineering</h4>
@@ -266,8 +311,8 @@ footer p a:hover
 		</div>
 	</div>
 
-	<div id = "education" class = "container-fluid bg-DarkGrey">
-		<div class = "row">
+	<div id = "education" class = "container-fluid matte_dark">
+		<div class = "row school"></br></br></br></br>
 			<div class = "col-sm-6 text-right">
 				<a target = "_blank" href = "http://mu.ac.in/portal/">
 					<img src = "mumbai_logo.php"/>
@@ -283,7 +328,7 @@ footer p a:hover
 	</div>
 
 	<div id = "education" class = "container-fluid">
-		<div class = "row">
+		<div class = "row school"></br></br></br></br>
 			<div class = "col-sm-6">
 				<h3>Smt. Sulochanadevi Singhania School</h3></br>
 				<h4>Major: Computer Science</h4>
@@ -297,7 +342,7 @@ footer p a:hover
 		</div>
 	</div>
 
-	<div id = "skills" class = "container-fluid text-center bg-LightGrey">
+	<div id = "skills" class = "container-fluid text-center matte_dark">
 		<h2> SOFTWARE SKILLS</h2>
 		<!--<h3>Some of the things I like to do and happen to be good at.</h3>-->
 		<br>
@@ -415,7 +460,7 @@ footer p a:hover
 						<img src = "pysport_thumbnail.png" style = "width: 960px; height: 540px;"/>
 					</a>
 					<p>PySport is a Python application that predicts the result of sports matches based on tweets made by fans, commentators, sporting authorities and</br>
-						  journalists throughout the week before the match. Several Python libraries are used including tweepy, matplotlib and</br>
+						  journalists throughout the week before the match. Several Python libraries are used including tweepy, matplotlib, numpy and</br>
 						 numpy that look for patterns, trends and keywords to make a prediction and display the results graphically.</p>
 				</div>
 			</div>
@@ -435,7 +480,7 @@ footer p a:hover
 
 	</div>
 
-	<div id = "resume" class = "container-fluid text-center bg-LightGrey">
+	<div id = "resume" class = "container-fluid text-center matte7">
 		<h2 class = "text-center">RESUME</h2></br>
 		<h3>Click on the image to view or download a PDF version of my full resume</h3>
 
