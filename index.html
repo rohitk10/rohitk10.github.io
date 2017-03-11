@@ -61,14 +61,16 @@ layout: default
    font-family:"Oswald-Light"; 
    src: url(Oswald-Light.ttf)
  }
-	
-	@media only screen and (max-width: 481px){
+
+/* Phone portrait */
+@media only screen and (max-width: 481px){
   #main_photo
   {
-  	width: 50px;
-  	height: 50px;
+  	width: 100px;
+  	height: 100px;
   }
  }
+
  *
  {
  	font-family: Oswald-Light;
@@ -110,7 +112,9 @@ layout: default
 }
 #main_photo 
 {
-    /*image-orientation: from-image;*/
+    image-orientation: from-image;
+    height: 300px;
+    width: 300px;
 }
 #education
 {
@@ -282,9 +286,11 @@ footer
 
 	<div class = "jumbotron text-center">
 		<h3>ROHIT KULKARNI</h3></br>
-		<img id = "main_photo" src = "photo2.jpeg" class="img-circle" style = "width: 300px; height: 300px"/></br>
+		<img id = "main_photo" src = "photo2.jpeg" class="img-circle"/></br>
+		<!--<img id = "main_photo" src = "photo2.jpeg" class="img-circle" style = "width: 100media="(min-width: 400px)">-->
 		</br><h4>coder_SoftwareDeveloper.engineer</h4>
 	</div>
+
 
 	<!--<div class = "container-fluid matte_light">
 		<div class = "row">
